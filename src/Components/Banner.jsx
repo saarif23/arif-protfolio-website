@@ -1,4 +1,5 @@
 import bannerImg from "../assets/hero.png"
+import bannerImg2 from "../assets/hero-1.png"
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Banner = () => {
@@ -7,8 +8,8 @@ const Banner = () => {
             id="home"
             className="min-h-screen flex py-10 md:flex-row flex-col items-center"
         >
-            <div className="flex-1 flex items-center justify-center h-full">
-                <img src={bannerImg} alt="" className="md:w-11/12 h-full object-cover" />
+            <div className="flex-1 flex items-center justify-center h-full mt-10">
+                <img  src={bannerImg2} alt="" className="md:w-8/12 rounded-l-full  h-full object-cover" />
             </div>
             <div className="flex-1">
                 <div className="md:text-left text-center">

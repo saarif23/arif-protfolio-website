@@ -1,4 +1,6 @@
 import aboutImg from "../assets/about.png";
+import Container from "./Container";
+import { MdDownload } from "react-icons/md";
 const About = () => {
     const info = [
         { text: "Years experience", count: "04" },
@@ -6,7 +8,8 @@ const About = () => {
         { text: "Companies Work", count: "06" },
     ];
     return (
-        <section id="about" className="py-10 text-white">
+        <Container>
+            <section id="about" className="py-10 text-white">
             <div className="text-center mt-8">
                 <h3 className="text-4xl font-Poppins font-extrabold">
                     About <span className="text-cyan-600">Me</span>
@@ -22,7 +25,7 @@ const About = () => {
                                 Reprehenderit cupiditate possimus facere quasi voluptatem?
                             </p>
                             <div className="flex mt-10 items-center gap-7">
-                                {info.map((content) => (
+                                {/* {info.map((content) => (
                                     <div key={content.text}>
                                         <h3 className="md:text-4xl text-2xl font-semibold text-white">
                                             {content.count}
@@ -30,12 +33,14 @@ const About = () => {
                                         </h3>
                                         <span className="md:text-base text-xs">{content.text}</span>
                                     </div>
-                                ))}
+                                ))} */}
+                              <a href="https://github.com/saarif23"><img src="https://github-readme-streak-stats.herokuapp.com?user=saarif23&theme=transparent&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=499" alt="GitHub Streak" /></a>
+
                             </div>
                             <br />
                             <br />
                             <a href="./src/assets/Code_a_program.pdf" download>
-                                <button className="btn-primary">Download CV</button>
+                                <button className="btn-primary"> <MdDownload/>Download Resume</button>
                             </a>
                         </div>
                     </div>
@@ -50,7 +55,13 @@ const About = () => {
                     </div>
                 </div>
             </div>
+
+
+
+
+
         </section>
+        </Container>
     );
 };
 
