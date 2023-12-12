@@ -4,7 +4,7 @@ import Container from "./Container";
 
 const Experience = () => {
     return (
-        <section id="experience" className="py-10 bg-gray-950">
+        <section id="experience" className="py-10 bg-gray-800">
             <Container>
                 <div className="text-center pb-10">
                     <h3 className="text-4xl font-bold"> Education and <span className="text-cyan-500"> Experience</span></h3>
