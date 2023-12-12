@@ -1,5 +1,6 @@
+/* eslint-disable react/no-unescaped-entities */
 
-import hireMe from "../assets/hireMe.png";
+import hireMe from "../assets/aboutimg.png";
 const Hireme = () => {
   return (
     <section id="hireme" className="py-10 px-3 text-white">
@@ -15,10 +16,7 @@ const Hireme = () => {
             Do you want any work from me?
           </h2>
           <p className="lg:text-left text-justify max-w-lg text-sm mt-4 text-gray-200 leading-6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dicta
-            soluta quos tempore eos accusamus cupiditate, amet in similique
-            sapiente obcaecati odio deleniti architecto corporis ratione.
-            Consequatur a quidem maiores!
+          As a dedicated professional React Frontend Developer, I am driven by an insatiable curiosity for learning and a relentless passion for coding. My commitment to continuous growth fuels my exploration of emerging technologies, ensuring a dynamic and innovative approach to development. With a goal to ascend to a senior frontend developer role in the next two years, I bring unwavering focus and dedication to achieving excellence. I thrive on the daily challenge of creating innovative solutions, pushing boundaries, and delivering exceptional results. Let's collaborate and elevate your projects to new heights.
           </p>
           <button className="btn-primary mt-10">Say Hello</button>
         </div>

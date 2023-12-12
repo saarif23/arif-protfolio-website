@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
 import { CgMail } from "react-icons/cg";
@@ -29,7 +30,7 @@ const Contact = () => {
                     <h3 className="text-4xl font-semibold">
                         Contact <span className="text-cyan-600">Me</span>
                     </h3>
-                    <p className="text-gray-400 mt-3 text-lg">Get in touch</p>
+                    <p className="text-gray-400 mt-3 text-lg">Available 24/7: Reach out on LinkedIn, email, or phone <br /> for any opportunities—I'm ready and responsive</p>
 
                     <div className="mt-16 flex md:flex-row flex-col gap-6 max-w-5xl bg-gray-800 md:p-6 p-2 rounded-lg mx-auto"
                     >

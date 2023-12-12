@@ -8,10 +8,12 @@ const Navbar = () => {
         { name: "ABOUT", link: "#about" },
         { name: "SKILLS", link: "#skills" },
         { name: "PROJECTS", link: "#projects" },
+        { name: "EDUCATION & EXPERIENCE", link: "#experience" },
         { name: "CONTACT", link: "#contact" },
     ];
     useEffect(() => {
         window.addEventListener("scroll", () => {
+            // eslint-disable-next-line no-unused-vars
             const nav = document.querySelector("nav");
             window.scrollY > 0 ? setSticky(true) : setSticky(false);
         });

@@ -68,7 +68,7 @@ const Skills = () => {
         <h3 className="text-4xl font-semibold">
           My <span className="text-cyan-600">Skills</span>
         </h3>
-        <p className="text-gray-400 mt-3 text-lg">My knowledge</p>
+        <p className="text-gray-400 mt-3 text-lg">Proficient in React and front-end technologies, dedicated <br /> to continual growth and exploration of emerging tools and frameworks</p>
       </div>
       <Swiper className="mySwiper my-10 "
         // slidesPerView={6}
