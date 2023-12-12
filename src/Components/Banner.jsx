@@ -1,6 +1,5 @@
-import bannerImg from "../assets/hero.png"
 import bannerImg2 from "../assets/hero-1.png"
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin,  } from "react-icons/fa";
 
 const Banner = () => {
     return (
@@ -9,7 +8,7 @@ const Banner = () => {
             className="min-h-screen flex py-10 md:flex-row flex-col items-center"
         >
             <div className="flex-1 flex items-center justify-center h-full mt-10">
-                <img  src={bannerImg2} alt="" className="md:w-8/12 rounded-l-full  h-full object-cover" />
+                <img src={bannerImg2} alt="" className="md:w-8/12 rounded-l-full  h-full object-cover" />
             </div>
             <div className="flex-1">
                 <div className="md:text-left text-center">
@@ -21,7 +20,7 @@ const Banner = () => {
                         My Name is <span>Arif Hossain</span>
                     </h1>
                     <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-600">
-                        Frontend Developer
+                       A Frontend Developer
                     </h4>
                     <button className="btn-primary mt-8">Contact Me</button>
                     <div className="mt-8 text-3xl flex items-center md:justify-start justify-center gap-5">
@@ -30,13 +29,13 @@ const Banner = () => {
                             <FaInstagram />
                         </div>
                         <div className="text-gray-600 hover:text-white cursor-pointer " >
-                            <FaFacebook />
+                            <a href="https://www.facebook.com/arifulislam.arif.56863221"><FaFacebook /></a>
                         </div>
                         <div className="text-gray-600 hover:text-white cursor-pointer " >
-                            <FaLinkedin />
+                            <a href="https://www.linkedin.com/in/arif-hossain-9094552a3"><FaLinkedin /></a>
                         </div>
                         <div className="text-gray-600 hover:text-white cursor-pointer " >
-                            <FaTwitter />
+                        <a href="https://github.com/saarif23"><FaGithub /></a>
                         </div>
 
                     </div>

@@ -2,6 +2,7 @@ import About from "./Components/About"
 import Banner from "./Components/Banner"
 import Bot from "./Components/Bot"
 import Contact from "./Components/Contact"
+import Footer from "./Components/Footer"
 import Hireme from "./Components/Hireme"
 import Navbar from "./Components/Navbar"
 import Project from "./Components/Projects"
@@ -20,6 +21,7 @@ function App() {
     <Hireme/>
     <Project/>
     <Contact/>
+    <Footer/>
     </>
   )
 }
