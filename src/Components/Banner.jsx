@@ -29,7 +29,7 @@ const Banner = () => {
           </h4>
 
           <div className="flex items-center gap-5 mt-8">
-            <a href="https://drive.google.com/file/d/12ZChK35gDdTvIPLfpcK5NKalb2Z2lhLK/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1Lup8F6qsLtisavNe4ZmvlNkibt3eZkyo/view?usp=sharing">
               <button className="btn-primary">
                 <MdDownload />
                 Download Resume
