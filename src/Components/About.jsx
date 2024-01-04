@@ -1,6 +1,6 @@
 import aboutImg from "../assets/aboutimg.png";
 import Container from "./Container";
-import { MdDownload } from "react-icons/md";
+
 const About = () => {
 
     return (
@@ -22,11 +22,8 @@ const About = () => {
                                     <a href="https://github.com/saarif23"><img src="https://github-readme-streak-stats.herokuapp.com?user=saarif23&theme=transparent&hide_border=true&date_format=j%20M%5B%20Y%5D&card_width=499" alt="GitHub Streak" /></a>
 
                                 </div>
-                                <br />
-                                <br />
-                                <a href="./src/assets/MERN_Stack_Developer_Resume_of_Arif_Hossain.pdf" download="Arif_Hossain.pdf">
-                                    <button className="btn-primary"> <MdDownload />Download Resume</button>
-                                </a>
+                              
+                            
                             </div>
                         </div>
                         <div className="flex-1 md:mt-0 mt-6 flex justify-center items-center">

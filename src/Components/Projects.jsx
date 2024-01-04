@@ -20,7 +20,7 @@ const Project = () => {
             img: project2,
             name: "Knowledge Cafe",
             github_link: "https://github.com/saarif23/library-management-system",
-            live_link: "https://iridescent-croissant-76b1d3.netlify.app",
+            live_link: "https://bespoke-piroshki-ccd535.netlify.app",
         },
         {
             img: project3,
