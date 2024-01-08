@@ -4,12 +4,10 @@ const Navbar = () => {
     const [sticky, setSticky] = useState(false);
     const [open, setOpen] = useState(false);
     const menuLinks = [
-        { name: "HOME", link: "#home" },
-        { name: "ABOUT", link: "#about" },
-        { name: "SKILLS", link: "#skills" },
-        { name: "PROJECTS", link: "#projects" },
-        { name: "EDUCATION & EXPERIENCE", link: "#experience" },
-        { name: "CONTACT", link: "#contact" },
+        { name: "HOME", link: "/" },
+        { name: "Add Product", link: "/addProduct" },
+        { name: "My Cart", link: "/myCart" },
+       
     ];
     useEffect(() => {
         window.addEventListener("scroll", () => {
