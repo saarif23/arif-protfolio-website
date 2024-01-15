@@ -26,7 +26,7 @@ const Project = () => {
             img: project3,
             name: "E-commerce",
             github_link: "https://github.com/saarif23/e-commmers-brandshop-client",
-            live_link: "https://653400a257ebb9455c9f6ebb--leafy-puffpuff-46165b.netlify.app",
+            live_link: "https://leafy-puffpuff-46165b.netlify.app",
         },
     ];
     return (
