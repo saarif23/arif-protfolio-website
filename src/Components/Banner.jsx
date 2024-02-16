@@ -6,16 +6,16 @@ const Banner = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex py-10 md:flex-row flex-col items-center"
+      className="bg-gray-800 min-h-screen flex pt-10 md:flex-row flex-col items-center lg:items-end gap-10"
     >
       <div className="flex-1 flex items-center justify-center h-full mt-10">
         <img
           src={bannerImg2}
           alt=""
-          className="md:w-8/12 rounded-l-full  h-full object-cover"
+          className="md:w-8/12 rounded h-full object-fill"
         />
       </div>
-      <div className="flex-1">
+      <div className="flex-1 mb-10">
         <div className="md:text-left text-center">
           <h1 className="md:text-5xl text-2xl md:leading-normal leading-10 text-white font-bold">
             <span className="text-cyan-600 md:text-6xl text-5xl">
@@ -29,7 +29,7 @@ const Banner = () => {
           </h4>
 
           <div className="flex items-center gap-5 mt-8">
-            <a href="https://drive.google.com/file/d/1Lup8F6qsLtisavNe4ZmvlNkibt3eZkyo/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1_APU4maV5aGik-ifkt6gC0JcX8ZleQFP/view?usp=sharing">
               <button className="btn-primary">
                 <MdDownload />
                 Download Resume
