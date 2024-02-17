@@ -12,18 +12,20 @@ const About = () => {
           <p className="text-gray-500 my-3 font-semibold  text-lg">
             Driven React Frontend Developer with a Passion for Continuous Growth
           </p>
-          <div className="flex md:flex-row flex-col-reverse items-center md:gap-6 gap-12 md:px-10 max-w-6xl mx-auto">
+          <div className="flex md:flex-row flex-col-reverse items-center md:gap-6 gap-12 md:px-10 max-w-6xl mx-auto mt-5">
             <div className="p-2">
               <div className="text-gray-300 font-medium my-3">
                 <p className="text-justify leading-7 w-full mx-auto">
-                  Hi, <br /> I&apos;m Arif Hossain, an enthusiastic junior web Developer committed to continuous learning and professional growth. My insatiable curiosity drives me to explore
-                  emerging technologies persistently. Committed to growth, my
-                  aspiration is to ascend to the position of a senior web
-                  developer within the next two years, and I am resolutely
-                  focused on realizing this goal. Coding is a passion of mine—I
-                  engage in coding activities regularly, striving to create
-                  something new on a daily basis. Below is a snapshot of my
-                  GitHub activity for each day.
+                  Hi, <br /> I&apos;m Arif Hossain, an enthusiastic junior web
+                  Developer committed to continuous learning and professional
+                  growth. My insatiable curiosity drives me to explore emerging
+                  technologies persistently. Committed to growth, my aspiration
+                  is to ascend to the position of a senior web developer within
+                  the next two years, and I am resolutely focused on realizing
+                  this goal. Coding is a passion of mine—I engage in coding
+                  activities regularly, striving to create something new on a
+                  daily basis. Below is a snapshot of my GitHub activity for
+                  each day.
                 </p>
                 <div className="flex mt-10 items-center gap-7">
                   <a href="https://github.com/saarif23">
